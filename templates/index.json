@@ -373,6 +373,12 @@
             "heading_tag": "h4"
           }
         },
+        "text_g7D4Nw": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><strong>Inclinaison de 27° pour un positionnement parfait</strong></li><li><strong>91 % rapportent un partenaire plus attentionné</strong><br/></li><li><strong>Ressemble à une déco normale – absolument discret</strong><br/></li><li><strong>Rend les positions inconfortables agréables</strong><br/></li><li><strong>Emballage discret</strong></li></ul>"
+          }
+        },
         "badges": {
           "type": "badges",
           "settings": {}
@@ -392,6 +398,7 @@
       "block_order": [
         "liquid_KzqNwd",
         "title",
+        "text_g7D4Nw",
         "badges",
         "buy-buttons"
       ],
