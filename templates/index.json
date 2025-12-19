@@ -24,6 +24,65 @@
         "overlay_opacity": 0
       }
     },
+    "logo_list_WX7jQy": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_RUXxKg": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Comopolitan_Magazine_Logo_svg.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_pnrVmF": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/VOGUE_revista_-_logo.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_ykcthg": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Men_s_Health_svg.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_gnAtEa": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Womenshealthlogo_svg.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_RUXxKg",
+        "logo_pnrVmF",
+        "logo_ykcthg",
+        "logo_gnAtEa"
+      ],
+      "name": "Logo list",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "",
+        "content": "<h3>Ils parlent de nous !</h3>",
+        "text_alignment": "center",
+        "items_per_row": 5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
     "featured-product": {
       "type": "featured-product",
       "blocks": {
@@ -290,6 +349,7 @@
   },
   "order": [
     "image-with-text-overlay",
+    "logo_list_WX7jQy",
     "featured-product",
     "feature-chart",
     "faq"
