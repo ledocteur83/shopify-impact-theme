@@ -379,6 +379,12 @@
             "text": "<ul><li><strong>Inclinaison de 27° pour un positionnement parfait</strong></li><li><strong>91 % rapportent un partenaire plus attentionné</strong><br/></li><li><strong>Ressemble à une déco normale – absolument discret</strong><br/></li><li><strong>Rend les positions inconfortables agréables</strong><br/></li><li><strong>Emballage discret</strong></li></ul>"
           }
         },
+        "liquid_tfBfqD": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .blink {\n    animation: blink-animation 1.5s steps(5, start) infinite;\n    color: red;\n    display: inline-block;\n    vertical-align: middle;\n    font-size: 10px;\n  }\n\n  @keyframes blink-animation {\n    to {\n      visibility: hidden;\n    }\n  }\n\n  .red-div {\n    background-color: #ffcccc;\n    padding: 4px 4px; /* Réduit le padding horizontal */\n    border-radius: 14px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    text-align: center;\n    max-width: 170px; /* Rétrécit la largeur maximale */\n    margin: 0; /* Supprime l'effet de centrage */\n  }\n\n  .text {\n    display: inline-block;\n    vertical-align: middle;\n    margin-left: 4px; /* Réduit l'espace entre le point et le texte */\n    color: #AD0000;\n    font-weight: 500;\n    font-size: 12px;\n    white-space: nowrap;\n  }\n</style>\n\n<div class=\"red-div\">\n  <div class=\"blink\">&#9679;</div>\n  <div class=\"text\">Stock restant : 3 unités\n</div>\n</div>"
+          }
+        },
         "badges": {
           "type": "badges",
           "settings": {}
@@ -393,14 +399,24 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
+        },
+        "image_MJGV8N": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/VitaClear_73_1.jpg",
+            "alignment": "center",
+            "max_width": 500
+          }
         }
       },
       "block_order": [
         "liquid_KzqNwd",
         "title",
         "text_g7D4Nw",
+        "liquid_tfBfqD",
         "badges",
-        "buy-buttons"
+        "buy-buttons",
+        "image_MJGV8N"
       ],
       "settings": {
         "full_width": false,
