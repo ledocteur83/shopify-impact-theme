@@ -279,13 +279,88 @@
         "lazy": true
       }
     },
+    "multi_column_jWRNE6": {
+      "type": "multi-column",
+      "blocks": {
+        "item_LGY9di": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Sans_titre_800_x_800_px_28.webp",
+            "column_size": "3",
+            "title": "Anne & Lucas, mariés depuis 11 ans",
+            "heading_tag": "h4",
+            "content": "<p><em>\"Nous n’aurions jamais pensé qu’un simple coussin pouvait faire une telle différence. Avant c’était compliqué, maintenant elle n’a plus de douleurs et nous passons de bons moments ensemble. Nous osons essayer de nouvelles choses, nous rions – et surtout… elle y trouve vraiment son compte à chaque fois.\"</em></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_x6w399": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Sans_titre_800_x_800_px_30.webp",
+            "column_size": "3",
+            "title": "Élodie & Thomas, en couple depuis 3 ans",
+            "heading_tag": "h4",
+            "content": "<p><em>\"J’ai remarqué qu’avant, elle serrait les dents à cause de la douleur – ça me bloquait. Avec Liebora, tout est devenu naturel. Elle profite, elle se laisse aller, et j’adore la voir comme ça. Nous varions les positions et remettons du plaisir dans nos moments intimes.\"</em></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_NDLeCm": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Sans_titre_800_x_800_px_29.webp",
+            "column_size": "3",
+            "title": "Claire & Martin, mariés depuis 14 ans",
+            "heading_tag": "h4",
+            "content": "<p><em>\"Après toutes ces années, nous pensions avoir déjà tout vécu. Liebora nous a prouvé le contraire. Plus de douleurs, plus de frustrations – seulement du plaisir partagé. Elle s’abandonne complètement, et je revis nos débuts… encore mieux qu’avant.\"</em></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_FFMVrq": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Sans_titre_800_x_800_px_33.webp",
+            "column_size": "3",
+            "title": "Laura & François, en couple depuis 5 ans",
+            "heading_tag": "h4",
+            "content": "<p><em>« Avant, elle avait souvent des douleurs et nous devions arrêter… Je me sentais mal. Depuis que nous avons Liebora, tout a changé. Nous essayons de nombreuses positions, elle prend vraiment du plaisir et moi je gagne en confiance. Cela a transformé notre intimité. »</em></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_LGY9di",
+        "item_x6w399",
+        "item_NDLeCm",
+        "item_FFMVrq"
+      ],
+      "custom_css": [
+        ".section-full {padding-top: 10px;}"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "featured-product": {
       "type": "featured-product",
       "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "settings": {}
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -345,7 +420,6 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "badges",
         "price",
@@ -550,6 +624,7 @@
     "rich_text_F4Mj9G",
     "image_with_text_overlay_gkHFnM",
     "testimonial8_awKFHN",
+    "multi_column_jWRNE6",
     "featured-product",
     "feature-chart",
     "faq"
