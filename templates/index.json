@@ -149,7 +149,7 @@
       "name": "SS - Testimonial #8",
       "settings": {
         "heading": "Nos clients en parlent le mieux",
-        "heading_custom": false,
+        "heading_custom": true,
         "heading_font": "poppins_n6",
         "heading_size": 40,
         "heading_size_mobile": 24,
