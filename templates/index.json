@@ -572,6 +572,75 @@
         "lazy": true
       }
     },
+    "imagewithtext_QFJEg9": {
+      "type": "imagewithtext",
+      "blocks": {
+        "heading_WwUHCE": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Des positions que vous pensiez impossibles… enfin possibles.</strong></p>",
+            "heading_custom": false,
+            "heading_font": "josefin_sans_n4",
+            "heading_size": 36,
+            "heading_size_mobile": 23,
+            "heading_height": 130,
+            "heading_mt": 0,
+            "heading_mt_mobile": 0,
+            "heading_color": "#000000"
+          }
+        },
+        "text_QULGKa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Le coussin Sensae™ libère les mouvements, corrige délicatement les angles et rend chaque position fluide et naturelle. Missionnaire intense, chevauchée sans effort, 69 confortable, positions latérales sans douleur… et ce n’est que le début.</p><p>Avec notre <strong>E-Book exclusif de 50 positions</strong>, vous découvrirez encore plus de façons de surprendre votre partenaire et de raviver la flamme.</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 16,
+            "text_size_mobile": 14,
+            "text_mt": 24,
+            "text_mt_mobile": 16,
+            "text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WwUHCE",
+        "text_QULGKa"
+      ],
+      "name": "SS - Image With Text #14",
+      "settings": {
+        "body_gap": 48,
+        "body_gap_mobile": 0,
+        "content_horizontal_align": "start",
+        "content_horizontal_align_mobile": "start",
+        "content_vertical_align": "end",
+        "content_padding_vertical": 32,
+        "content_padding_vertical_mobile": 16,
+        "content_padding_horizontal": 32,
+        "content_padding_horizontal_mobile": 16,
+        "image": "shopify://shop_images/opo.webp",
+        "image_position": "right",
+        "image_position_mobile": "top",
+        "image_ratio": "square",
+        "image_ratio_mobile": "square",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 52,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -636,6 +705,7 @@
     "featured-product",
     "tabs_VLWyVm",
     "imagewithtext_aHgfTM",
+    "imagewithtext_QFJEg9",
     "faq"
   ]
 }
