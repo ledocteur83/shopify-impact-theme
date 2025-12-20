@@ -444,6 +444,53 @@
         "input_text_color": ""
       }
     },
+    "tabs_VLWyVm": {
+      "type": "tabs",
+      "blocks": {
+        "tab_epkdTN": {
+          "type": "tab",
+          "settings": {
+            "title": "Caractéristiques",
+            "content": "<p>Le <strong>Coussin Sensae™</strong> est fabriqué en <strong>mousse à mémoire de forme</strong> de haute qualité avec une housse hypoallergénique en <strong>bambou</strong>. Son angle ergonomique de <strong>27°</strong>, scientifiquement prouvé, épouse naturellement l’anatomie féminine et soulage le <strong>mal de dos</strong>.</p><p><strong>Dimensions : 60 × 30 × 15 cm – Poids : 1,2 kg – Couleur : gris anthracite discret</strong>, qui s’intègre parfaitement dans tout type d’intérieur. Soutien solide et <strong>antidérapant</strong>, il reste toujours bien en place.</p><p>Conçu pour améliorer le <strong>confort intime</strong>, faciliter une <strong>expérience naturelle</strong> et transformer votre <strong>intimité</strong> sans compromis.<br/><br/>La housse est <strong>amovible et lavable en machine</strong>.<br/><br/>Des <strong>matériaux durables</strong> garantis pour de nombreuses années.</p>",
+            "page": ""
+          }
+        },
+        "tab_A3ikb9": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 2",
+            "content": "<p>Describe a product, share announcements, or welcome customers to your store.</p>",
+            "page": ""
+          }
+        },
+        "tab_BYx7PH": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 3",
+            "content": "<p>Share information about your shipping rates, return policy or contact information.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_epkdTN",
+        "tab_A3ikb9",
+        "tab_BYx7PH"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "subheading": "",
+        "title": "",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -506,6 +553,7 @@
     "testimonial8_awKFHN",
     "multi_column_jWRNE6",
     "featured-product",
+    "tabs_VLWyVm",
     "faq"
   ]
 }
