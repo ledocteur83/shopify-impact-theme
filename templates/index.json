@@ -426,6 +426,9 @@
         "buy-buttons",
         "image_MJGV8N"
       ],
+      "custom_css": [
+        ".section-full {padding-bottom: 20px;}"
+      ],
       "settings": {
         "full_width": false,
         "product": "coussin-sensae™-le-confort-intime-qui-rapproche",
@@ -458,16 +461,24 @@
         "tab_A3ikb9": {
           "type": "tab",
           "settings": {
-            "title": "Tab 2",
-            "content": "<p>Describe a product, share announcements, or welcome customers to your store.</p>",
+            "title": "Essayez sans risque pendant 30 jours",
+            "content": "<p>30 jours Sensae™ sans risque : Pas satisfait ? Retournez-le simplement – nous vous remboursons intégralement.</p>",
             "page": ""
           }
         },
         "tab_BYx7PH": {
           "type": "tab",
           "settings": {
-            "title": "Tab 3",
-            "content": "<p>Share information about your shipping rates, return policy or contact information.</p>",
+            "title": "Livraison gratuite à domicile",
+            "content": "<p>Selon le volume des commandes, la livraison aura lieu dans un délai de <strong>5 à 8 jours ouvrés</strong> après l’expédition.</p>",
+            "page": ""
+          }
+        },
+        "tab_diWiyP": {
+          "type": "tab",
+          "settings": {
+            "title": "Service client 7j/7",
+            "content": "<p><strong>Notre équipe est à votre disposition 7 jours sur 7 pour toute question.</strong></p><p>Vous pouvez nous contacter par e-mail aux horaires suivants :</p><ul><li><strong>Du lundi au vendredi : de 9h00 à 12h00 et de 14h00 à 18h00</strong><br/></li><li><strong>Samedi et dimanche : de 10h00 à 12h00</strong><br/></li></ul><p>N’hésitez pas à nous contacter.</p>",
             "page": ""
           }
         }
@@ -475,7 +486,8 @@
       "block_order": [
         "tab_epkdTN",
         "tab_A3ikb9",
-        "tab_BYx7PH"
+        "tab_BYx7PH",
+        "tab_diWiyP"
       ],
       "name": "Tabs",
       "settings": {
@@ -489,6 +501,75 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
+      }
+    },
+    "imagewithtext_aHgfTM": {
+      "type": "imagewithtext",
+      "blocks": {
+        "heading_UHfmzH": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Pourquoi ne pouvez-vous plus vous passer l’un de l’autre ?</strong></p>",
+            "heading_custom": false,
+            "heading_font": "josefin_sans_n4",
+            "heading_size": 36,
+            "heading_size_mobile": 23,
+            "heading_height": 130,
+            "heading_mt": 0,
+            "heading_mt_mobile": 0,
+            "heading_color": "#000000"
+          }
+        },
+        "text_XKBGPf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sensae transforme votre intimité grâce à la science.<br/>Fini l’inconfort – place au plaisir partagé.<br/>Vous redécouvrirez cette intimité qui fait battre le cœur et cette passion qui rend votre relation unique.</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 16,
+            "text_size_mobile": 14,
+            "text_mt": 24,
+            "text_mt_mobile": 16,
+            "text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UHfmzH",
+        "text_XKBGPf"
+      ],
+      "name": "SS - Image With Text #14",
+      "settings": {
+        "body_gap": 48,
+        "body_gap_mobile": 0,
+        "content_horizontal_align": "start",
+        "content_horizontal_align_mobile": "start",
+        "content_vertical_align": "end",
+        "content_padding_vertical": 32,
+        "content_padding_vertical_mobile": 16,
+        "content_padding_horizontal": 32,
+        "content_padding_horizontal_mobile": 16,
+        "image": "shopify://shop_images/Video.webp",
+        "image_position": "right",
+        "image_position_mobile": "top",
+        "image_ratio": "square",
+        "image_ratio_mobile": "square",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 52,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
       }
     },
     "faq": {
@@ -554,6 +635,7 @@
     "multi_column_jWRNE6",
     "featured-product",
     "tabs_VLWyVm",
+    "imagewithtext_aHgfTM",
     "faq"
   ]
 }
