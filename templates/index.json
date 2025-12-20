@@ -703,44 +703,84 @@
     "faq": {
       "type": "faq",
       "blocks": {
+        "item_beDYq6": {
+          "type": "item",
+          "settings": {
+            "title": "Le produit est-il livré discrètement ?",
+            "content": "<p>Oui. L’emballage est totalement anonyme, sans aucune indication sur le contenu.<br/><br/>Même sur votre relevé bancaire, l’achat apparaît uniquement sous une catégorie neutre telle que<strong>Santé/Bien-être</strong>, afin de préserver votre confidentialité.</p>"
+          }
+        },
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "Pourquoi l’angle de 27° est-il si important ?",
+            "content": "<p>L’angle précis de 27° a été scientifiquement conçu pour permettre un positionnement optimal, soulager les tensions et favoriser une connexion plus profonde entre les partenaires. Cet angle assure un alignement naturel et un maintien stable à chaque utilisation.</p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "En quoi ce coussin est-il différent d’un coussin classique ?",
+            "content": "<p>Il s’agit d’un coussin ergonomique polyvalent dédié au bien-être : il améliore la posture, soulage le bas du dos, maintient l’angle idéal et s’intègre parfaitement à votre intérieur – sans avoir l’apparence d’un « produit intime ».</p>"
           }
         },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "Est-il confortable en cas de douleurs au dos ou aux hanches ?",
+            "content": "<p>Oui ! La mousse à mémoire de forme de haute qualité, combinée à l’angle étudié, réduit les points de pression et rend les positions plus agréables et plus accessibles – même en cas de douleurs physiques.</p>"
+          }
+        },
+        "item_F3M86c": {
+          "type": "item",
+          "settings": {
+            "title": "Le coussin reste-t-il stable pendant l’utilisation ?",
+            "content": "<p>Absolument. Sa base antidérapante maintient le coussin fermement en place et empêche tout glissement pouvant perturber vos moments d’intimité.</p>"
+          }
+        },
+        "item_Np9L9C": {
+          "type": "item",
+          "settings": {
+            "title": "Est-il adapté à toutes les morphologies ?",
+            "content": "<p>Oui, la mousse viscoélastique s’adapte à différentes formes corporelles tout en conservant l’angle optimal de 27° – offrant ainsi confort et efficacité à la grande majorité des couples.</p>"
+          }
+        },
+        "item_F8TJVN": {
+          "type": "item",
+          "settings": {
+            "title": "Le produit est-il discret dans la chambre ?",
+            "content": "<p>Oui, tout à fait. Il ressemble à un coussin design ou décoratif, et non à un mobilier explicite. Son design élégant lui permet de s’intégrer naturellement dans votre chambre à coucher.</p>"
+          }
+        },
+        "item_RptE8p": {
+          "type": "item",
+          "settings": {
+            "title": "Combien de temps faut-il pour recevoir ma commande ?",
+            "content": "<p>La livraison a lieu en général dans un délai de<strong>5 à 8 jours ouvrés après expédition</strong>. Vous recevrez un numéro de suivi pour suivre votre colis à tout moment.</p>"
           }
         }
       },
       "block_order": [
+        "item_beDYq6",
         "166442457738b23caf-0",
         "166442457738b23caf-1",
-        "166442457738b23caf-2"
+        "166442457738b23caf-2",
+        "item_F3M86c",
+        "item_Np9L9C",
+        "item_F8TJVN",
+        "item_RptE8p"
       ],
       "settings": {
         "full_width": false,
         "subheading": "",
         "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "content": "",
         "team_avatar_width": 160,
         "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
         "answer_time": "Average answer time: 24h",
         "button_text": "",
         "button_url": "",
-        "text_position": "start",
+        "text_position": "center",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
