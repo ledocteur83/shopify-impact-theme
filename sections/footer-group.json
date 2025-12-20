@@ -17,14 +17,14 @@
         "free-shipping": {
           "type": "item",
           "settings": {
-            "icon": "picto-box",
+            "icon": "picto-return",
             "mobile_icon_width": 24,
             "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Free shipping",
-            "content": "<p>Tell your customers about your shipping offer.</p>"
+            "icon_background_type": "circle",
+            "icon_background": "#f83a3a",
+            "icon_color": "#ffffff",
+            "title": "Satisfait ou remboursé",
+            "content": ""
           }
         },
         "customer-support": {
@@ -33,37 +33,37 @@
             "icon": "picto-customer-support",
             "mobile_icon_width": 24,
             "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Customer service",
-            "content": "<p>Tell your customers how they can reach you.</p>"
+            "icon_background_type": "circle",
+            "icon_background": "#f83a3a",
+            "icon_color": "#ffffff",
+            "title": "Service client 7J/7",
+            "content": ""
           }
         },
         "discount": {
           "type": "item",
           "settings": {
-            "icon": "picto-coupon",
+            "icon": "picto-lock",
             "mobile_icon_width": 24,
             "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Refer a friend",
-            "content": "<p>Tell your customers about your promotional offers.</p>"
+            "icon_background_type": "circle",
+            "icon_background": "#f83a3a",
+            "icon_color": "#ffffff",
+            "title": "Paiement sécurisé",
+            "content": ""
           }
         },
         "payment": {
           "type": "item",
           "settings": {
-            "icon": "picto-lock",
+            "icon": "picto-box",
             "mobile_icon_width": 24,
             "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Secure payment",
-            "content": "<p>Tel your customers about your payment methods.</p>"
+            "icon_background_type": "circle",
+            "icon_background": "#f83a3a",
+            "icon_color": "#ffffff",
+            "title": "Livraison offerte à partir de 59€",
+            "content": ""
           }
         }
       },
@@ -75,7 +75,7 @@
       ],
       "settings": {
         "full_width": true,
-        "stack_on_mobile": false,
+        "stack_on_mobile": true,
         "title": "",
         "heading_tag": "h6",
         "text_alignment": "center",
@@ -94,7 +94,7 @@
         "wave_animation": true,
         "wave_rotate": false,
         "wave_color": "#f83a3a",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#f83a3a",
         "margin_top": 0,
