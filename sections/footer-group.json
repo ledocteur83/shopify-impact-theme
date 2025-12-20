@@ -111,32 +111,32 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "title": "Besoin d’aide ?",
+            "content": "<p>Contactez-nous via le formulaire sur la page<strong>Contact</strong>ou par e-mail à <a><strong>contact@senseapillow.com</strong></a>.<br/><br/><strong>Horaires d’ouverture :</strong>lun–ven 9h00–12h00 et 14h00–18h00 / sam & dim 10h00–12h00.</p>",
+            "enable_follow_on_shop": false
+          }
+        },
         "links": {
           "type": "links",
           "settings": {
             "menu": "footer",
             "show_menu_title": true
           }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
-            "enable_follow_on_shop": false
-          }
         }
       },
       "block_order": [
-        "links",
-        "text"
+        "text",
+        "links"
       ],
       "settings": {
         "show_social_media": true,
         "show_payment_icons": true,
-        "show_country_selector": true,
-        "show_country_flag": true,
-        "show_country_name": true,
+        "show_country_selector": false,
+        "show_country_flag": false,
+        "show_country_name": false,
         "show_locale_selector": false
       }
     }
