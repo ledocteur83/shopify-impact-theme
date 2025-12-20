@@ -554,7 +554,7 @@
         "image_position_mobile": "top",
         "image_ratio": "square",
         "image_ratio_mobile": "square",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
@@ -623,7 +623,7 @@
         "image_position_mobile": "top",
         "image_ratio": "square",
         "image_ratio_mobile": "square",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
@@ -639,6 +639,65 @@
         "border_thickness": 0,
         "section_radius": 0,
         "lazy": true
+      }
+    },
+    "rich_text_yErQKX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iQKQ9V": {
+          "type": "heading",
+          "settings": {
+            "text": "La différence qui change tout",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_iQKQ9V"
+      ],
+      "custom_css": [
+        ".section-full {padding-bottom: 5px;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1766190714861c79de": {
+      "type": "apps",
+      "blocks": {
+        "pretty_comparison_tables_table_UcaQt8": {
+          "type": "shopify://apps/pretty-comparison-tables/blocks/table/4ce14980-e26b-4398-92cd-f582d95d4f05",
+          "settings": {
+            "product": "coussin-sensae™-le-confort-intime-qui-rapproche",
+            "title_text": "",
+            "title_font_tag": "h2",
+            "section_background_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "pretty_comparison_tables_table_UcaQt8"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
       }
     },
     "faq": {
@@ -706,6 +765,8 @@
     "tabs_VLWyVm",
     "imagewithtext_aHgfTM",
     "imagewithtext_QFJEg9",
+    "rich_text_yErQKX",
+    "1766190714861c79de",
     "faq"
   ]
 }
