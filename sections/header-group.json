@@ -17,7 +17,7 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "Livraison Offerte - Expédié sous 24h",
+            "text": "Envío gratuito - Se envía en 24 horas",
             "url": ""
           }
         }
@@ -30,7 +30,7 @@
         "text_size": "text-base",
         "navigation_mode": "arrows",
         "scrolling_speed": 10,
-        "background": "#f83a3a",
+        "background": "#1bae31",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
