@@ -9,6 +9,86 @@
  */
 {
   "sections": {
+    "featured-product": {
+      "type": "featured-product",
+      "blocks": {
+        "liquid_KzqNwd": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n:root {\n  --social-proof-text-color: #000000;\n  --social-proof-star-color: #0fb87f;\n}\n\n.social-proof-slide__block-rating {\n    display: flex;\n    align-items: center;\n    justify-content: flex-start;\nfont-size: 14px;\n}\n\n.social-proof-slide__block-stars {\n    display: flex;\n    margin-right: 8px;\n    color: var(--social-proof-star-color);\n}\n\n.social-proof-slide__block-rating-text {\n    display: inline;\n    color: var(--social-proof-text-color);\n    content: var(--social-proof-rating-text);\n}\n\n.social-proof-star {\n    margin: 0;\n    padding: 0;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 16px;\n    height: 16px;\n}\n\n.social-proof-star svg {\n    width: 16px;\n    height: 16px;\n    fill: var(--social-proof-star-color);\n}\n</style>\n</head>\n<body>\n\n<div class=\"social-proof-slide__block-rating mt-2\">\n  <span class=\"social-proof-slide__block-stars\">\n    <span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n  </span>\n  <span class=\"social-proof-slide__block-rating-text\">\nNoté 4.8 par +5500 couples !</span>\n</div>\n\n</body>\n</html>"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h4"
+          }
+        },
+        "text_g7D4Nw": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><strong>Inclinaison de 27° pour un positionnement parfait</strong></li><li><strong>91 % rapportent un partenaire plus attentionné</strong><br/></li><li><strong>Ressemble à une déco normale – absolument discret</strong><br/></li><li><strong>Rend les positions inconfortables agréables</strong><br/></li><li><strong>Emballage discret</strong></li></ul>"
+          }
+        },
+        "liquid_tfBfqD": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .blink {\n    animation: blink-animation 1.5s steps(5, start) infinite;\n    color: red;\n    display: inline-block;\n    vertical-align: middle;\n    font-size: 10px;\n  }\n\n  @keyframes blink-animation {\n    to {\n      visibility: hidden;\n    }\n  }\n\n  .red-div {\n    background-color: #ffcccc;\n    padding: 4px 4px; /* Réduit le padding horizontal */\n    border-radius: 14px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    text-align: center;\n    max-width: 170px; /* Rétrécit la largeur maximale */\n    margin: 0; /* Supprime l'effet de centrage */\n  }\n\n  .text {\n    display: inline-block;\n    vertical-align: middle;\n    margin-left: 4px; /* Réduit l'espace entre le point et le texte */\n    color: #AD0000;\n    font-weight: 500;\n    font-size: 12px;\n    white-space: nowrap;\n  }\n</style>\n\n<div class=\"red-div\">\n  <div class=\"blink\">&#9679;</div>\n  <div class=\"text\">Stock restant : 3 unités\n</div>\n</div>"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "buy-buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "#00b67a",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "image_MJGV8N": {
+          "type": "image",
+          "settings": {
+            "alignment": "center",
+            "max_width": 500
+          }
+        }
+      },
+      "block_order": [
+        "liquid_KzqNwd",
+        "title",
+        "text_g7D4Nw",
+        "liquid_tfBfqD",
+        "badges",
+        "buy-buttons",
+        "image_MJGV8N"
+      ],
+      "custom_css": [
+        ".section-full {padding-bottom: 20px;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "product": "coussin-sensae™-le-confort-intime-qui-rapproche",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "contained",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 3,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
     "image-with-text-overlay": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -16,7 +96,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/CosmoLED.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -30,7 +109,6 @@
         "logo_RUXxKg": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Comopolitan_Magazine_Logo_svg.png",
             "logo_width": 120,
             "link": ""
           }
@@ -38,7 +116,6 @@
         "logo_pnrVmF": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/VOGUE_revista_-_logo.png",
             "logo_width": 120,
             "link": ""
           }
@@ -46,7 +123,6 @@
         "logo_ykcthg": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Men_s_Health_svg.png",
             "logo_width": 120,
             "link": ""
           }
@@ -54,7 +130,6 @@
         "logo_gnAtEa": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Womenshealthlogo_svg.png",
             "logo_width": 120,
             "link": ""
           }
@@ -91,7 +166,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/CosmoLED_1.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -136,7 +210,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/CosmoLED_-_2025-11-17T005154.700.webp",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -171,7 +244,6 @@
         "stars_size_mobile": 22,
         "stars_align": "center",
         "text": "<p><strong>+5.800 </strong>Avis vérifiés</p>",
-        "text_right_image": "shopify://shop_images/Debouche_le_nez_instantanement_4_0be88f8c-a25d-4dc1-b1c5-e45eed790420.webp",
         "text_custom": false,
         "text_font": "josefin_sans_n4",
         "text_size": 20,
@@ -285,7 +357,6 @@
         "item_LGY9di": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Sans_titre_800_x_800_px_28.webp",
             "column_size": "3",
             "title": "Anne & Lucas, mariés depuis 11 ans",
             "heading_tag": "h4",
@@ -298,7 +369,6 @@
         "item_x6w399": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Sans_titre_800_x_800_px_30.webp",
             "column_size": "3",
             "title": "Élodie & Thomas, en couple depuis 3 ans",
             "heading_tag": "h4",
@@ -311,7 +381,6 @@
         "item_NDLeCm": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Sans_titre_800_x_800_px_29.webp",
             "column_size": "3",
             "title": "Claire & Martin, mariés depuis 14 ans",
             "heading_tag": "h4",
@@ -324,7 +393,6 @@
         "item_FFMVrq": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Sans_titre_800_x_800_px_33.webp",
             "column_size": "3",
             "title": "Laura & François, en couple depuis 5 ans",
             "heading_tag": "h4",
@@ -356,95 +424,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "featured-product": {
-      "type": "featured-product",
-      "blocks": {
-        "liquid_KzqNwd": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n:root {\n  --social-proof-text-color: #000000;\n  --social-proof-star-color: #0fb87f;\n}\n\n.social-proof-slide__block-rating {\n    display: flex;\n    align-items: center;\n    justify-content: flex-start;\nfont-size: 14px;\n}\n\n.social-proof-slide__block-stars {\n    display: flex;\n    margin-right: 8px;\n    color: var(--social-proof-star-color);\n}\n\n.social-proof-slide__block-rating-text {\n    display: inline;\n    color: var(--social-proof-text-color);\n    content: var(--social-proof-rating-text);\n}\n\n.social-proof-star {\n    margin: 0;\n    padding: 0;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 16px;\n    height: 16px;\n}\n\n.social-proof-star svg {\n    width: 16px;\n    height: 16px;\n    fill: var(--social-proof-star-color);\n}\n</style>\n</head>\n<body>\n\n<div class=\"social-proof-slide__block-rating mt-2\">\n  <span class=\"social-proof-slide__block-stars\">\n    <span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n  </span>\n  <span class=\"social-proof-slide__block-rating-text\">\nNoté 4.8 par +5500 couples !</span>\n</div>\n\n</body>\n</html>"
-          }
-        },
-        "title": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h4"
-          }
-        },
-        "text_g7D4Nw": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li><strong>Inclinaison de 27° pour un positionnement parfait</strong></li><li><strong>91 % rapportent un partenaire plus attentionné</strong><br/></li><li><strong>Ressemble à une déco normale – absolument discret</strong><br/></li><li><strong>Rend les positions inconfortables agréables</strong><br/></li><li><strong>Emballage discret</strong></li></ul>"
-          }
-        },
-        "liquid_tfBfqD": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<style>\n  .blink {\n    animation: blink-animation 1.5s steps(5, start) infinite;\n    color: red;\n    display: inline-block;\n    vertical-align: middle;\n    font-size: 10px;\n  }\n\n  @keyframes blink-animation {\n    to {\n      visibility: hidden;\n    }\n  }\n\n  .red-div {\n    background-color: #ffcccc;\n    padding: 4px 4px; /* Réduit le padding horizontal */\n    border-radius: 14px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    text-align: center;\n    max-width: 170px; /* Rétrécit la largeur maximale */\n    margin: 0; /* Supprime l'effet de centrage */\n  }\n\n  .text {\n    display: inline-block;\n    vertical-align: middle;\n    margin-left: 4px; /* Réduit l'espace entre le point et le texte */\n    color: #AD0000;\n    font-weight: 500;\n    font-size: 12px;\n    white-space: nowrap;\n  }\n</style>\n\n<div class=\"red-div\">\n  <div class=\"blink\">&#9679;</div>\n  <div class=\"text\">Stock restant : 3 unités\n</div>\n</div>"
-          }
-        },
-        "kaching_bundles_app_block_JxDxBw": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "{{section.settings.product}}",
-            "manual_deal_block_id": ""
-          }
-        },
-        "badges": {
-          "type": "badges",
-          "settings": {}
-        },
-        "buy-buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": false,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "#00b67a",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        },
-        "image_MJGV8N": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/VitaClear_73_1.jpg",
-            "alignment": "center",
-            "max_width": 500
-          }
-        }
-      },
-      "block_order": [
-        "liquid_KzqNwd",
-        "title",
-        "text_g7D4Nw",
-        "liquid_tfBfqD",
-        "kaching_bundles_app_block_JxDxBw",
-        "badges",
-        "buy-buttons",
-        "image_MJGV8N"
-      ],
-      "custom_css": [
-        ".section-full {padding-bottom: 20px;}"
-      ],
-      "settings": {
-        "full_width": false,
-        "product": "coussin-sensae™-le-confort-intime-qui-rapproche",
-        "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "contained",
-        "mobile_carousel_control": "thumbnails",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": false,
-        "max_image_zoom_level": 3,
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "input_background": "rgba(0,0,0,0)",
-        "input_text_color": ""
       }
     },
     "tabs_VLWyVm": {
@@ -549,7 +528,6 @@
         "content_padding_vertical_mobile": 16,
         "content_padding_horizontal": 32,
         "content_padding_horizontal_mobile": 16,
-        "image": "shopify://shop_images/Video.webp",
         "image_position": "right",
         "image_position_mobile": "top",
         "image_ratio": "square",
@@ -618,7 +596,6 @@
         "content_padding_vertical_mobile": 16,
         "content_padding_horizontal": 32,
         "content_padding_horizontal_mobile": 16,
-        "image": "shopify://shop_images/opo.webp",
         "image_position": "right",
         "image_position_mobile": "top",
         "image_ratio": "square",
@@ -672,20 +649,6 @@
     },
     "1766190714861c79de": {
       "type": "apps",
-      "blocks": {
-        "pretty_comparison_tables_table_UcaQt8": {
-          "type": "shopify://apps/pretty-comparison-tables/blocks/table/4ce14980-e26b-4398-92cd-f582d95d4f05",
-          "settings": {
-            "product": "coussin-sensae™-le-confort-intime-qui-rapproche",
-            "title_text": "",
-            "title_font_tag": "h2",
-            "section_background_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "pretty_comparison_tables_table_UcaQt8"
-      ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -794,6 +757,8 @@
     }
   },
   "order": [
+    "featured-product",
+    "tabs_VLWyVm",
     "image-with-text-overlay",
     "logo_list_WX7jQy",
     "image_with_text_overlay_GAHDmC",
@@ -801,8 +766,6 @@
     "image_with_text_overlay_gkHFnM",
     "testimonial8_awKFHN",
     "multi_column_jWRNE6",
-    "featured-product",
-    "tabs_VLWyVm",
     "imagewithtext_aHgfTM",
     "imagewithtext_QFJEg9",
     "rich_text_yErQKX",
