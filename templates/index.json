@@ -788,57 +788,64 @@
         "item_beDYq6": {
           "type": "item",
           "settings": {
-            "title": "Le produit est-il livré discrètement ?",
-            "content": "<p>Oui. L’emballage est totalement anonyme, sans aucune indication sur le contenu.<br/><br/>Même sur votre relevé bancaire, l’achat apparaît uniquement sous une catégorie neutre telle que<strong>Santé/Bien-être</strong>, afin de préserver votre confidentialité.</p>"
+            "title": "¿Hay contraindicaciones?",
+            "content": "<p>Sí. Erlona® no está recomendado en los siguientes casos:</p><p>— Mujeres embarazadas o en periodo de lactancia<br/><br/>— Niños menores de 12 años<br/><br/>— Personas bajo tratamiento anticoagulante (warfarina, heparina o equivalente) — el Trébol Rojo puede interactuar con estos medicamentos<br/><br/>— Personas con insuficiencia renal o hepática grave<br/><br/>— Personas alérgicas a alguna de las plantas de la fórmula: Galio · Trébol Rojo · Stillingia · Fresno Espinoso</p><p>En caso de duda, consulta con tu médico o farmacéutico antes de empezar el tratamiento.</p>"
           }
         },
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "Pourquoi l’angle de 27° est-il si important ?",
-            "content": "<p>L’angle précis de 27° a été scientifiquement conçu pour permettre un positionnement optimal, soulager les tensions et favoriser une connexion plus profonde entre les partenaires. Cet angle assure un alignement naturel et un maintien stable à chaque utilisation.</p>"
+            "title": "¿Erlona® es un medicamento?",
+            "content": "<p>No. Erlona® es un complemento alimenticio a base de plantas. Ayuda al funcionamiento natural del sistema linfático. No sustituye ningún tratamiento médico. En caso de patología diagnosticada, continúa tu tratamiento y consulta con tu médico.</p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "En quoi ce coussin est-il différent d’un coussin classique ?",
-            "content": "<p>Il s’agit d’un coussin ergonomique polyvalent dédié au bien-être : il améliore la posture, soulage le bas du dos, maintient l’angle idéal et s’intègre parfaitement à votre intérieur – sans avoir l’apparence d’un « produit intime ».</p>"
+            "title": "Soy diabética o tomo metformina para el SOP. ¿Puedo usar Erlona®?",
+            "content": "<p>Erlona® no contiene azúcares añadidos y no actúa sobre la glucosa en sangre. Es compatible con la metformina. En caso de diabetes tipo 1 o patologías metabólicas graves, consulta con tu médico.</p>"
           }
         },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
-            "title": "Est-il confortable en cas de douleurs au dos ou aux hanches ?",
-            "content": "<p>Oui ! La mousse à mémoire de forme de haute qualité, combinée à l’angle étudié, réduit les points de pression et rend les positions plus agréables et plus accessibles – même en cas de douleurs physiques.</p>"
+            "title": "¿Cuándo veré los primeros resultados?",
+            "content": "<p>La mayoría de nuestras clientas notan los primeros resultados entre 7 y 10 días de uso regular. Para resultados óptimos, recomendamos un uso diario durante al menos 4 semanas.</p>"
           }
         },
         "item_F3M86c": {
           "type": "item",
           "settings": {
-            "title": "Le coussin reste-t-il stable pendant l’utilisation ?",
-            "content": "<p>Absolument. Sa base antidérapante maintient le coussin fermement en place et empêche tout glissement pouvant perturber vos moments d’intimité.</p>"
+            "title": "¿Cómo se utiliza el producto?",
+            "content": "<p>Tomar 1 ml al día (aproximadamente 20 gotas o 1/5 de cucharadita) directamente bajo la lengua o diluido en un vaso de agua. Preferiblemente por la mañana y en ayunas para una mejor absorción.</p>"
           }
         },
         "item_Np9L9C": {
           "type": "item",
           "settings": {
-            "title": "Est-il adapté à toutes les morphologies ?",
-            "content": "<p>Oui, la mousse viscoélastique s’adapte à différentes formes corporelles tout en conservant l’angle optimal de 27° – offrant ainsi confort et efficacité à la grande majorité des couples.</p>"
+            "title": "¿Es apto para todo el mundo?",
+            "content": "<p>La fórmula 100% natural a base de plantas está diseñada para adultos. Sin embargo, recomendamos consultar con tu médico antes de usarlo si estás embarazada, en periodo de lactancia o bajo tratamiento médico.</p>"
           }
         },
         "item_F8TJVN": {
           "type": "item",
           "settings": {
-            "title": "Le produit est-il discret dans la chambre ?",
-            "content": "<p>Oui, tout à fait. Il ressemble à un coussin design ou décoratif, et non à un mobilier explicite. Son design élégant lui permet de s’intégrer naturellement dans votre chambre à coucher.</p>"
+            "title": "¿Cuánto dura un frasco?",
+            "content": "<p>Un frasco de 59 ml contiene 59 dosis de 1 ml, lo que equivale aproximadamente a 2 meses de tratamiento con una toma diaria.</p>"
           }
         },
         "item_RptE8p": {
           "type": "item",
           "settings": {
-            "title": "Combien de temps faut-il pour recevoir ma commande ?",
-            "content": "<p>La livraison a lieu en général dans un délai de<strong>5 à 8 jours ouvrés après expédition</strong>. Vous recevrez un numéro de suivi pour suivre votre colis à tout moment.</p>"
+            "title": "¿El producto me hará ir constantemente al baño?",
+            "content": "<p>No. A diferencia de muchos complementos drenantes, Erlona® Drenaje Linfático actúa suavemente sobre el sistema linfático sin efecto diurético agresivo.</p>"
+          }
+        },
+        "item_3aXcBJ": {
+          "type": "item",
+          "settings": {
+            "title": "¿Y si no estoy satisfecha?",
+            "content": "<p>Ofrecemos una garantía de devolución de 30 días. Si no estás satisfecha, contáctanos en <a>contact@myerlona-es.com</a> y te reembolsaremos sin hacer preguntas.</p>"
           }
         }
       },
@@ -850,7 +857,8 @@
         "item_F3M86c",
         "item_Np9L9C",
         "item_F8TJVN",
-        "item_RptE8p"
+        "item_RptE8p",
+        "item_3aXcBJ"
       ],
       "settings": {
         "full_width": false,
