@@ -23,7 +23,7 @@
             "icon_background_type": "circle",
             "icon_background": "#1bae31",
             "icon_color": "#ffffff",
-            "title": "Satisfait ou remboursé",
+            "title": "Satisfacción garantizada o reembolso",
             "content": ""
           }
         },
@@ -36,7 +36,7 @@
             "icon_background_type": "circle",
             "icon_background": "#1bae31",
             "icon_color": "#ffffff",
-            "title": "Service client 7J/7",
+            "title": "Atención al cliente 7 días a la semana",
             "content": ""
           }
         },
@@ -49,7 +49,7 @@
             "icon_background_type": "circle",
             "icon_background": "#1bae31",
             "icon_color": "#ffffff",
-            "title": "Paiement sécurisé",
+            "title": "Pago seguro",
             "content": ""
           }
         },
@@ -62,7 +62,7 @@
             "icon_background_type": "circle",
             "icon_background": "#1bae31",
             "icon_color": "#ffffff",
-            "title": "Livraison offerte à partir de 59€",
+            "title": "Envío gratuito a partir de 40€",
             "content": ""
           }
         }
@@ -114,8 +114,8 @@
         "text": {
           "type": "text",
           "settings": {
-            "title": "Besoin d’aide ?",
-            "content": "<p>Contactez-nous via le formulaire sur la page<strong>Contact</strong>ou par e-mail à <a><strong>contact@senseapillow.com</strong></a>.<br/><br/><strong>Horaires d’ouverture :</strong>lun–ven 9h00–12h00 et 14h00–18h00 / sam & dim 10h00–12h00.</p>",
+            "title": "¿Necesitas ayuda?",
+            "content": "<p>Contáctanos a través del formulario de la página de Contacto o por e-mail en <a href=\"mailto:contact@myerlona-es.com\">contact@myerlona-es.com</a>.</p><p>Horario de atención:<br/>lun–vie 9:00–12:00 y 14:00–18:00 / sáb y dom 10:00–12:00.</p>",
             "enable_follow_on_shop": false
           }
         },
