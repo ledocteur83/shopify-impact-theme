@@ -54,6 +54,7 @@
         "image_MJGV8N": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/hf_20260521_151629_4e8f4732-e564-497c-9d62-9244bb91f316.png",
             "alignment": "center",
             "max_width": 500
           }
