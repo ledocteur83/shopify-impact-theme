@@ -322,6 +322,88 @@
         "text_color": ""
       }
     },
+    "rich_text_bVqX7z": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8DG9JG": {
+          "type": "heading",
+          "settings": {
+            "text": "¿Cómo usarlo?",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_8DG9JG"
+      ],
+      "custom_css": [
+        ".section-full {padding-bottom: 20px;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "images_with_text_scrolling_keYjrn": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_chxRK8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/hf_20260521_152010_9d417907-4770-4031-b145-81a79ef40ef8.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Paso 1 :",
+            "content": "<p>Agitar bien antes de usar (preferiblemente por la mañana y en ayunas).</p>"
+          }
+        },
+        "item_tQHnXB": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/hf_20260409_153620_eeb8629b-a45c-4044-b7a2-ef24c9d50441.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Paso 2 :",
+            "content": "<p>Diluir 1 a 2 ml (equivale a una cucharadita) en un vaso de agua o tomar directamente bajo la lengua para una absorción rápida.</p>"
+          }
+        },
+        "item_qzxXmC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/hf_20260409_153435_9dfd04bb-b74e-41a2-b2f9-d8c588a0934e.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Paso 3 :",
+            "content": "<p>Conviértelo en tu ritual diario cada mañana y nota la diferencia desde el primer mes.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_chxRK8",
+        "item_tQHnXB",
+        "item_qzxXmC"
+      ],
+      "name": "Images and text scrolling",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "image-with-text-overlay": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -342,6 +424,7 @@
         "logo_RUXxKg": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/Cosmopolitan__revista__logotipo.png",
             "logo_width": 120,
             "link": ""
           }
@@ -349,6 +432,7 @@
         "logo_pnrVmF": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/ELLE_Magazine_Logo.svg",
             "logo_width": 120,
             "link": ""
           }
@@ -356,6 +440,7 @@
         "logo_ykcthg": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/Grazia-Logo_svg.png",
             "logo_width": 120,
             "link": ""
           }
@@ -363,6 +448,7 @@
         "logo_gnAtEa": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/Marie_Claire_Magazine_logo_svg.png",
             "logo_width": 120,
             "link": ""
           }
@@ -379,7 +465,7 @@
         "full_width": true,
         "stack_mobile": true,
         "title": "",
-        "content": "<h3>Ils parlent de nous !</h3>",
+        "content": "<h3>Hablan de nosotros</h3>",
         "text_alignment": "center",
         "items_per_row": 5,
         "background": "",
@@ -399,6 +485,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/hf_20260521_151535_e4101833-2a12-41db-90ae-b777697a7002.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -422,6 +509,7 @@
       "block_order": [
         "heading_zRMRwN"
       ],
+      "disabled": true,
       "custom_css": [
         ".section-full {padding-bottom: 5px;}"
       ],
@@ -439,21 +527,21 @@
       "type": "testimonial8",
       "name": "SS - Testimonial #8",
       "settings": {
-        "heading": "Nos clients en parlent le mieux",
+        "heading": "Nuestras clientas lo recomiendan mejor que nadie",
         "heading_custom": true,
         "heading_font": "poppins_n6",
         "heading_size": 40,
-        "heading_size_mobile": 24,
+        "heading_size_mobile": 22,
         "heading_height": 130,
         "heading_align": "center",
-        "rating_text": "Excellent",
+        "rating_text": "Excelente",
         "rating_text_custom": false,
         "rating_text_font": "josefin_sans_n4",
         "rating_text_size": 24,
         "rating_text_size_mobile": 20,
         "rating_text_height": 130,
         "rating_text_mt": 16,
-        "rating": 4.8,
+        "rating": 4.7,
         "rating_hide": false,
         "rating_text_hide": false,
         "rating_align": "center",
@@ -461,7 +549,7 @@
         "stars_size": 28,
         "stars_size_mobile": 22,
         "stars_align": "center",
-        "text": "<p><strong>+5.800 </strong>Avis vérifiés</p>",
+        "text": "<p><strong>+2.200 </strong>opiniones verificadas</p>",
         "text_custom": false,
         "text_font": "josefin_sans_n4",
         "text_size": 20,
@@ -559,7 +647,7 @@
         "border_color": "#000000",
         "margin_top": 0,
         "margin_bottom": 0,
-        "padding_top": 0,
+        "padding_top": 52,
         "padding_bottom": 0,
         "padding_horizontal": 0,
         "padding_horizontal_mobile": 0,
@@ -787,6 +875,8 @@
     "tabs_VLWyVm",
     "ingedeitn_xqbcjh",
     "rich_text_enrHTk",
+    "rich_text_bVqX7z",
+    "images_with_text_scrolling_keYjrn",
     "image-with-text-overlay",
     "logo_list_WX7jQy",
     "image_with_text_overlay_GAHDmC",
