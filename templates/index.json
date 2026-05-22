@@ -54,9 +54,19 @@
             "liquid": "<style>\n  .blink {\n    animation: blink-animation 1.5s steps(5, start) infinite;\n    color: red;\n    display: inline-block;\n    vertical-align: middle;\n    font-size: 10px;\n  }\n\n  @keyframes blink-animation {\n    to {\n      visibility: hidden;\n    }\n  }\n\n  .red-div {\n    background-color: #ffcccc;\n    padding: 4px 4px; /* Réduit le padding horizontal */\n    border-radius: 14px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    text-align: center;\n    max-width: 180px; /* Rétrécit la largeur maximale */\n    margin: 0; /* Supprime l'effet de centrage */\n  }\n\n  .text {\n    display: inline-block;\n    vertical-align: middle;\n    margin-left: 4px; /* Réduit l'espace entre le point et le texte */\n    color: #AD0000;\n    font-weight: 500;\n    font-size: 12px;\n    white-space: nowrap;\n  }\n</style>\n\n<div class=\"red-div\">\n  <div class=\"blink\">&#9679;</div>\n  <div class=\"text\">Solo quedan 5 unidades\n</div>\n</div>"
           }
         },
-        "badges": {
-          "type": "badges",
-          "settings": {}
+        "image_jCpArC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hf_20260521_151433_a6f25cd9-2d8e-42f5-8ec3-57090958140d.png",
+            "alignment": "center",
+            "max_width": 500
+          }
+        },
+        "liquid_H64EE6": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{%- comment -%}\n  COMPTE À REBOURS MINIMAL — Reset global toutes les N minutes (par défaut 5)\n  Style conforme aux 2 dernières captures : gros chiffres + libellés gris en dessous.\n{%- endcomment -%}\n\n<div class=\"cd-plain\" data-cycle-min=\"5\" data-now=\"{{ 'now' | date: '%s' }}\" role=\"timer\" aria-live=\"polite\">\n  <div class=\"cd-plain__row\">\n    <div class=\"cd-plain__group\">\n      <span class=\"cd-plain__num\" data-part=\"d\">00</span>\n    </div>\n    <span class=\"cd-plain__colon\">:</span>\n    <div class=\"cd-plain__group\">\n      <span class=\"cd-plain__num\" data-part=\"h\">00</span>\n    </div>\n    <span class=\"cd-plain__colon\">:</span>\n    <div class=\"cd-plain__group\">\n      <span class=\"cd-plain__num\" data-part=\"m\">05</span>\n    </div>\n    <span class=\"cd-plain__colon\">:</span>\n    <div class=\"cd-plain__group\">\n      <span class=\"cd-plain__num\" data-part=\"s\">00</span>\n    </div>\n  </div>\n\n  <div class=\"cd-plain__labels\">\n    <span class=\"cd-plain__label\"></span>\n    <span class=\"cd-plain__label\"></span>\n    <span class=\"cd-plain__label\"></span>\n    <span class=\"cd-plain__label\"></span>\n  </div>\n</div>\n\n{%- comment -%} styles injectés une seule fois {%- endcomment -%}\n{% unless content_for_header contains 'cd-plain-style' %}\n  <style id=\"cd-plain-style\">\n    .cd-plain{ text-align:center; margin: 8px 0 6px; }\n    .cd-plain__row{\n      display:inline-flex; align-items:baseline; gap: 12px;\n    }\n    .cd-plain__group{ display:inline-flex; flex-direction:column; align-items:center; }\n.cd-plain__num{\n  font-weight:800; font-variant-numeric: tabular-nums;\n  line-height:1; font-size:40px; color:#1f2937;\n}\n.cd-plain__colon{\n  font-weight:800; font-size:34px; line-height:1; color:#1f2937; opacity:.95;\n  transform: translateY(-1px);\n}\n.cd-plain__labels{\n  display:grid; grid-template-columns: repeat(4, auto);\n  justify-content:center; gap: 40px; margin-top: 6px;\n  color:#6b7280; font-size:15px;\n}\n@media (max-width: 640px){\n  .cd-plain__row{ gap:10px; }\n  .cd-plain__num{ font-size:34px; }\n  .cd-plain__colon{ font-size:30px; }\n  .cd-plain__labels{ gap:28px; font-size:14px; }\n}\n@media (max-width: 420px){\n  .cd-plain__num{ font-size:28px; }\n  .cd-plain__colon{ font-size:24px; }\n  .cd-plain__labels{ gap:22px; font-size:13px; }\n}\n  </style>\n{% endunless %}\n\n<script>\n(function(){\n  // Trouve le dernier compteur inséré (au cas où tu en mets plusieurs)\n  var roots = document.querySelectorAll('.cd-plain');\n  if(!roots.length) return;\n  var root = roots[roots.length - 1];\n\n  var dEl = root.querySelector('[data-part=\"d\"]');\n  var hEl = root.querySelector('[data-part=\"h\"]');\n  var mEl = root.querySelector('[data-part=\"m\"]');\n  var sEl = root.querySelector('[data-part=\"s\"]');\n\n  var cycleMin = parseInt(root.getAttribute('data-cycle-min') || '5', 10);\n  var cycleMs  = Math.max(1, cycleMin) * 60 * 1000;\n\n  // Timestamp serveur au rendu → limite le “saut” initial\n  var serverNowSec = parseInt(root.getAttribute('data-now') || '0', 10);\n  var serverNowMs  = serverNowSec * 1000;\n  var clientInit   = Date.now();\n  var drift        = clientInit - serverNowMs;\n\n  function nextEnd(fromMs){\n    return Math.ceil(fromMs / cycleMs) * cycleMs; // reset global (00,05,10…)\n  }\n  var end = nextEnd(serverNowMs);\n\n  function pad(n){ return (n < 10 ? '0' : '') + n; }\n\n  function tick(){\n    var now  = Date.now() - drift;     // recale sur l’horloge “serveur”\n    var left = end - now;\n\n    if(left <= 0){                      // restart du cycle\n      end += cycleMs;\n      left = end - now;\n    }\n\n    var total = Math.floor(left / 1000);\n    var d = Math.floor(total / 86400);\n    var h = Math.floor((total % 86400) / 3600);\n    var m = Math.floor((total % 3600) / 60);\n    var s = total % 60;\n\n    dEl.textContent = pad(d);\n    hEl.textContent = pad(h);\n    mEl.textContent = pad(m);\n    sEl.textContent = pad(s);\n  }\n\n  tick();\n  setInterval(tick, 250);\n})();\n</script>"
+          }
         },
         "buy-buttons": {
           "type": "buy_buttons",
@@ -86,7 +96,8 @@
         "liquid_wE6w9U",
         "liquid_gA3UUe",
         "liquid_tfBfqD",
-        "badges",
+        "image_jCpArC",
+        "liquid_H64EE6",
         "buy-buttons",
         "image_MJGV8N"
       ],
