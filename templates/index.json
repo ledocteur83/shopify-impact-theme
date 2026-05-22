@@ -146,6 +146,182 @@
         "heading_gradient": ""
       }
     },
+    "ingedeitn_xqbcjh": {
+      "type": "ingedeitn",
+      "blocks": {
+        "card_BJPbGQ": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Gal_apa_11050902_700x700_700x700_a0b7b0e9-88ad-4e1b-9f9d-dc9486c438c6.webp",
+            "image_url": "",
+            "title": "Galio",
+            "text": "<p>Estimula el drenaje linfático natural y ayuda a eliminar los líquidos responsables de la hinchazón y la pesadez en las piernas.</p>",
+            "ingredients": ""
+          }
+        },
+        "card_C3eHMm": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/trifolium-incarnatum_700x700_2c52f67c-44ba-4b99-a7eb-2fa7adaa3842.webp",
+            "image_url": "",
+            "title": "Flor de Trébol Rojo",
+            "text": "<p>Favorece la detoxificación del cuerpo, ayuda a purificar la sangre y mejora la circulación linfática.</p>",
+            "ingredients": ""
+          }
+        },
+        "card_rkefGr": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Gal_apa_11050902_700x700_700x700_5cf6b6de-20f0-4c4d-8613-1c87058a2f4f.webp",
+            "image_url": "",
+            "title": "Stillingia",
+            "text": "<p>Ayuda a eliminar toxinas acumuladas y reduce la hinchazón visible del rostro y del cuerpo.</p>",
+            "ingredients": ""
+          }
+        },
+        "card_rGT9Pr": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/frene-epineux_700x700_700x700_07033309-760c-41f2-bfdb-efab10acd127.webp",
+            "image_url": "",
+            "title": "Corteza de Fresno Espinoso",
+            "text": "<p>Tonifica y revitaliza el sistema linfático, aumenta la energía natural y mejora la circulación.</p>",
+            "ingredients": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_BJPbGQ",
+        "card_C3eHMm",
+        "card_rkefGr",
+        "card_rGT9Pr"
+      ],
+      "name": "SS - Product ingredients #5",
+      "settings": {
+        "layout_type": "grid",
+        "layout_type_mobile": "slider",
+        "heading": "<p>Ingredientes puros, cultivados en España</p>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 44,
+        "heading_size_mobile": 24,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "cards_gap": 30,
+        "cards_gap_mobile": 20,
+        "cards_view": 3,
+        "cards_view_mobile": 1.1,
+        "cards_mt": 36,
+        "cards_mt_mobile": 24,
+        "card_padding_horizontal": 20,
+        "card_padding_horizontal_mobile": 20,
+        "card_padding_vertical": 20,
+        "card_padding_vertical_mobile": 20,
+        "card_radius": 12,
+        "card_border_thickness": 0,
+        "image_ratio": "landscape",
+        "image_ratio_mobile": "landscape",
+        "card_content_align": "left",
+        "card_content_align_mobile": "left",
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 20,
+        "title_size_mobile": 18,
+        "title_height": 130,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 13,
+        "text_size_mobile": 13,
+        "text_height": 150,
+        "text_mt": 12,
+        "text_mt_mobile": 10,
+        "use_read_more": false,
+        "read_more": "read more",
+        "read_less": "read less",
+        "small_text_size": 100,
+        "ingredients_gap": 8,
+        "ingredients_gap_mobile": 8,
+        "ingredients_mt": 16,
+        "ingredients_mt_mobile": 16,
+        "ingredient_padding_horizontal": 10,
+        "ingredient_padding_horizontal_mobile": 10,
+        "ingredient_padding_vertical": 6,
+        "ingredient_padding_vertical_mobile": 6,
+        "ingredient_radius": 100,
+        "ingredient_border_thickness": 1,
+        "ingredient_custom": false,
+        "ingredient_font": "josefin_sans_n4",
+        "ingredient_size": 11,
+        "ingredient_size_mobile": 11,
+        "ingredient_height": 100,
+        "arrow_size": 48,
+        "arrow_size_mobile": 38,
+        "arrow_icon_size": 10,
+        "arrow_icon_size_mobile": 8,
+        "arrow_border_thickness": 0,
+        "arrow_radius": 100,
+        "arrow_hover_effect": "color",
+        "arrow_show_desktop": false,
+        "arrow_show_mobile": false,
+        "title_color": "#121212",
+        "text_color": "#121212",
+        "card_bg_color": "#f1f1f1",
+        "card_border_color": "#121212",
+        "ingredient_color": "#121212",
+        "ingredient_bg_color": "transparent",
+        "ingredient_border_color": "#121212",
+        "arrow_color": "#FFFFFF",
+        "arrow_hover_color": "#121212",
+        "arrow_bg_color": "#121212",
+        "arrow_bg_hover_color": "#FFFFFF",
+        "arrow_border_color": "#C7C7C7",
+        "arrow_border_hover_color": "#C7C7C7",
+        "heading_color": "#121212",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
+    "rich_text_enrHTk": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_hnWbLB": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>*Comprar por separado estas 4 plantas en las dosis adecuadas costaría entre 100€ y 160€/mes aproximadamente.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_hnWbLB"
+      ],
+      "custom_css": [
+        ".section-full {padding-top: 0px;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "image-with-text-overlay": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -609,6 +785,8 @@
   "order": [
     "featured-product",
     "tabs_VLWyVm",
+    "ingedeitn_xqbcjh",
+    "rich_text_enrHTk",
     "image-with-text-overlay",
     "logo_list_WX7jQy",
     "image_with_text_overlay_GAHDmC",
