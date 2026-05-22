@@ -30,6 +30,24 @@
             "text": "<p>Un gesto simple y natural que activa tu sistema linfático para sentirte más <strong>ligera</strong>, <strong>deshinchada</strong> y <strong>radiante</strong> desde los primeros <strong>7 días</strong>.</p>"
           }
         },
+        "liquid_VtXxXG": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"benefits-list\">\n  <div class=\"benefit-item\">\n    <svg class=\"check-icon\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"#1BAE31\"/>\n      <path d=\"M9 12l2 2 4-4\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    </svg>\n    <span class=\"benefit-text\">Cintura más fina, piernas ligeras</span>\n  </div>\n\n  <div class=\"benefit-item\">\n    <svg class=\"check-icon\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"#1BAE31\"/>\n      <path d=\"M9 12l2 2 4-4\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    </svg>\n    <span class=\"benefit-text\">Mejora la circulación linfática</span>\n  </div>\n\n  <div class=\"benefit-item\">\n    <svg class=\"check-icon\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"#1BAE31\"/>\n      <path d=\"M9 12l2 2 4-4\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    </svg>\n    <span class=\"benefit-text\">Rostro redefinido y deshinchado</span>\n  </div>\n\n  <div class=\"benefit-item\">\n    <svg class=\"check-icon\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"#1BAE31\"/>\n      <path d=\"M9 12l2 2 4-4\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    </svg>\n    <span class=\"benefit-text\">Favorece el confort digestivo</span>\n  </div>\n\n  <div class=\"benefit-item\">\n    <svg class=\"check-icon flag-icon\" viewBox=\"0 0 30 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"30\" height=\"20\" rx=\"3\" fill=\"#AA151B\"/>\n      <rect y=\"5\" width=\"30\" height=\"10\" fill=\"#F1BF00\"/>\n    </svg>\n    <span class=\"benefit-text\">Fabricado en España, sin efectos secundarios</span>\n  </div>\n</div>\n\n<style>\n.benefits-list {\n  display: flex;\n  flex-direction: column;\n  gap: 8px;\n  margin: 15px 0;\n}\n\n.benefit-item {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n}\n\n.check-icon {\n  width: 20px;\n  height: 20px;\n  flex-shrink: 0;\n}\n\n.flag-icon {\n  width: 28px;\n  height: 19px;\n  flex-shrink: 0;\n  border-radius: 3px;\n  box-shadow: 0 0 0 1px #ddd;\n}\n\n.benefit-text {\n  font-family: 'Poppins', Arial, sans-serif;\n  font-size: 15px;\n  font-weight: 700;\n  color: #2C2C2C;\n  line-height: 1.3;\n}\n\n@media (max-width: 768px) {\n  .benefit-text {\n    font-size: 14px;\n  }\n\n  .check-icon {\n    width: 18px;\n    height: 18px;\n  }\n\n  .flag-icon {\n    width: 24px;\n    height: 16px;\n  }\n\n  .benefits-list {\n    gap: 6px;\n  }\n}\n</style>"
+          }
+        },
+        "liquid_wE6w9U": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"\nborder:1px solid #7ea68e;\nborder-radius:12px;\npadding:14px 16px;\nbackground:#ffffff;\ndisplay:flex;\ngap:10px;\nalign-items:flex-start;\nmargin-top:12px;\n\">\n<div style=\"font-size:16px;line-height:1.4;\">\n🌿\n</div>\n<div style=\"line-height:1.4\">\n<div style=\"\nfont-weight:600;\nfont-size:15px;\ncolor:#2b2b2b;\nmargin-bottom:4px;\n\">\nIngredientes Naturales Clínicamente Probados\n</div>\n<div style=\"\nfont-size:13.5px;\ncolor:#5f5f5f;\n\">\nLas 4 plantas utilizadas en Erlona han sido clínicamente estudiadas para ayudar a eliminar los líquidos responsables de la hinchazón.\n</div>\n</div>\n</div>"
+          }
+        },
+        "liquid_gA3UUe": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% comment %} Sección Contraindicaciones con imagen popup {% endcomment %}\n\n<link href=\"https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap\" rel=\"stylesheet\">\n\n<div class=\"contre-indications-wrapper\">\n  \n  <button \n    class=\"contre-indications-btn\" \n    onclick=\"openContraModal()\"\n    type=\"button\"\n  >\n    <span class=\"btn-text\">Contraindicaciones</span>\n    <span class=\"btn-arrow\">›</span>\n  </button>\n\n  <div \n    id=\"contraModal\" \n    class=\"contra-modal-overlay\" \n    onclick=\"closeContraModal(event)\"\n  >\n    <div class=\"contra-modal-content\">\n      \n      <button \n        class=\"contra-close-btn\" \n        onclick=\"closeContraModal()\"\n        type=\"button\"\n      >\n        ✕\n      </button>\n\n      <img \n        src=\"https://i.postimg.cc/xTRW4bm8/hf-20260521-152154-1da65458-37b3-4630-858b-dceb3368c9bf.png\"\n        alt=\"Contraindicaciones Erlona Drenaje Linfático\"\n        class=\"contra-image\"\n        loading=\"lazy\"\n      >\n\n    </div>\n  </div>\n\n</div>\n\n<style>\n  .contre-indications-wrapper {\n    margin: 16px 0;\n    font-family: 'Poppins', sans-serif;\n  }\n\n  .contre-indications-btn {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    background: #F5EFE0;\n    border: 1.5px solid #D2C498;\n    border-radius: 10px;\n    padding: 12px 18px;\n    cursor: pointer;\n    width: 100%;\n    text-align: left;\n    transition: all 0.2s ease;\n    font-family: 'Poppins', sans-serif;\n  }\n\n  .contre-indications-btn:hover {\n    background: #EDE5CC;\n    border-color: #264634;\n  }\n\n  .btn-text {\n    flex: 1;\n    font-size: 14px;\n    font-weight: 600;\n    color: #264634;\n    letter-spacing: 0.3px;\n    font-family: 'Poppins', sans-serif;\n  }\n\n  .btn-arrow {\n    font-size: 20px;\n    color: #264634;\n    font-weight: 300;\n    transition: transform 0.2s ease;\n    font-family: 'Poppins', sans-serif;\n  }\n\n  .contre-indications-btn:hover .btn-arrow {\n    transform: translateX(3px);\n  }\n\n  .contra-modal-overlay {\n    display: none;\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    background: rgba(0, 0, 0, 0.75);\n    z-index: 99999;\n    align-items: center;\n    justify-content: center;\n    padding: 20px;\n    box-sizing: border-box;\n    backdrop-filter: blur(4px);\n  }\n\n  .contra-modal-overlay.active {\n    display: flex;\n  }\n\n  .contra-modal-content {\n    position: relative;\n    max-width: 480px;\n    width: 100%;\n    border-radius: 16px;\n    overflow: hidden;\n    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.4);\n    animation: modalSlideIn 0.3s ease;\n  }\n\n  @keyframes modalSlideIn {\n    from {\n      opacity: 0;\n      transform: translateY(20px) scale(0.95);\n    }\n    to {\n      opacity: 1;\n      transform: translateY(0) scale(1);\n    }\n  }\n\n  .contra-image {\n    width: 100%;\n    height: auto;\n    display: block;\n    border-radius: 16px;\n  }\n\n  .contra-close-btn {\n    position: absolute;\n    top: 12px;\n    right: 12px;\n    background: rgba(0, 0, 0, 0.6);\n    color: white;\n    border: none;\n    border-radius: 50%;\n    width: 32px;\n    height: 32px;\n    font-size: 14px;\n    cursor: pointer;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    z-index: 10;\n    transition: background 0.2s;\n    font-family: 'Poppins', sans-serif;\n  }\n\n  .contra-close-btn:hover {\n    background: rgba(0, 0, 0, 0.85);\n  }\n\n  @media (max-width: 480px) {\n    .contra-modal-content {\n      max-width: 100%;\n      border-radius: 12px;\n    }\n\n    .btn-text {\n      font-size: 13px;\n    }\n  }\n</style>\n\n<script>\n  function openContraModal() {\n    const modal = document.getElementById('contraModal');\n    modal.classList.add('active');\n    document.body.style.overflow = 'hidden';\n  }\n\n  function closeContraModal(event) {\n    if (!event || event.target === document.getElementById('contraModal') || event.currentTarget.classList.contains('contra-close-btn')) {\n      const modal = document.getElementById('contraModal');\n      modal.classList.remove('active');\n      document.body.style.overflow = '';\n    }\n  }\n\n  document.addEventListener('keydown', function(e) {\n    if (e.key === 'Escape') {\n      closeContraModal();\n    }\n  });\n</script>"
+          }
+        },
         "liquid_tfBfqD": {
           "type": "liquid",
           "settings": {
@@ -64,6 +82,9 @@
         "liquid_KzqNwd",
         "title",
         "text_g7D4Nw",
+        "liquid_VtXxXG",
+        "liquid_wE6w9U",
+        "liquid_gA3UUe",
         "liquid_tfBfqD",
         "badges",
         "buy-buttons",
@@ -269,14 +290,14 @@
         "card_bg_color": "#f1f1f1",
         "card_border_color": "#121212",
         "ingredient_color": "#121212",
-        "ingredient_bg_color": "transparent",
+        "ingredient_bg_color": "rgba(0,0,0,0)",
         "ingredient_border_color": "#121212",
-        "arrow_color": "#FFFFFF",
+        "arrow_color": "#ffffff",
         "arrow_hover_color": "#121212",
         "arrow_bg_color": "#121212",
-        "arrow_bg_hover_color": "#FFFFFF",
-        "arrow_border_color": "#C7C7C7",
-        "arrow_border_hover_color": "#C7C7C7",
+        "arrow_bg_hover_color": "#ffffff",
+        "arrow_border_color": "#c7c7c7",
+        "arrow_border_hover_color": "#c7c7c7",
         "heading_color": "#121212",
         "background_color": "#ffffff",
         "background_gradient": "",
