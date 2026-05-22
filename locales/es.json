@@ -427,6 +427,11 @@
   "shopify": {
     "links": {
       "powered_by_shopify": "Todos los derechos reservados. Términos y condiciones & aviso legal."
+    },
+    "checkout": {
+      "alternative_payment_method_banner": {
+        "or": "ℹ️ Quedan pocas unidades en stock — asegura tu pedido ahora mismo."
+      }
     }
   }
 }
