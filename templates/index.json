@@ -752,6 +752,7 @@
       "block_order": [
         "heading_iQKQ9V"
       ],
+      "disabled": true,
       "custom_css": [
         ".section-full {padding-bottom: 5px;}"
       ],
@@ -765,20 +766,20 @@
         "text_color": ""
       }
     },
-    "1766190714861c79de": {
-      "type": "apps",
+    "image_with_text_overlay_btaCLg": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
       "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/hf_20260521_151552_1750575f-e57b-4d5a-aa62-5b0d26fcdc55.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
     "faq": {
@@ -888,7 +889,7 @@
     "testimonial8_awKFHN",
     "multi_column_jWRNE6",
     "rich_text_yErQKX",
-    "1766190714861c79de",
+    "image_with_text_overlay_btaCLg",
     "faq"
   ]
 }
