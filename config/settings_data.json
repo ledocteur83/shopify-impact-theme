@@ -46,6 +46,11 @@
         "type": "shopify://apps/kaching-bundles/blocks/app-embed-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
         "disabled": false,
         "settings": {}
+      },
+      "14458903502463230934": {
+        "type": "shopify://apps/moon-bundles/blocks/cart-drawer/aaf4cd95-8b9b-4a14-b929-0f7fc8fced27",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
