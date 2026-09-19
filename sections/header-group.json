@@ -17,7 +17,7 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "Envío gratuito - Se envía en 24 horas",
+            "text": "Free Shipping",
             "url": ""
           }
         }
@@ -40,9 +40,9 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
-        "logo": "shopify://shop_images/ChatGPT_Image_9_juin_2026_15_09_02.png",
+        "logo": "shopify://shop_images/kronex_logo_png.png",
         "logo_max_width": 165,
-        "logo_mobile_max_width": 140,
+        "logo_mobile_max_width": 120,
         "menu": "main-menu",
         "sidebar_menu": "",
         "secondary_menu": "",
