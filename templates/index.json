@@ -57,22 +57,13 @@
         "image_W3NyKh": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Design_sans_titre.png",
             "alignment": "center",
             "max_width": 500
-          }
-        },
-        "kaching_bundles_app_block_9NcVgg": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "{{section.settings.product}}",
-            "manual_deal_block_id": ""
           }
         },
         "image_jCpArC": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/hf_20260521_151433_a6f25cd9-2d8e-42f5-8ec3-57090958140d.png",
             "alignment": "center",
             "max_width": 500
           }
@@ -97,7 +88,6 @@
         "image_MJGV8N": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/hf_20260521_151629_4e8f4732-e564-497c-9d62-9244bb91f316.png",
             "alignment": "center",
             "max_width": 500
           }
@@ -118,7 +108,6 @@
         "liquid_gA3UUe",
         "liquid_tfBfqD",
         "image_W3NyKh",
-        "kaching_bundles_app_block_9NcVgg",
         "image_jCpArC",
         "liquid_H64EE6",
         "buy-buttons",
@@ -202,156 +191,6 @@
         "heading_gradient": ""
       }
     },
-    "ingedeitn_xqbcjh": {
-      "type": "ingedeitn",
-      "blocks": {
-        "card_BJPbGQ": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/Gal_apa_11050902_700x700_700x700_a0b7b0e9-88ad-4e1b-9f9d-dc9486c438c6.webp",
-            "image_url": "",
-            "title": "Galio",
-            "text": "<p>Estimula el drenaje linfático natural y ayuda a eliminar los líquidos responsables de la hinchazón y la pesadez en las piernas.</p>",
-            "ingredients": ""
-          }
-        },
-        "card_C3eHMm": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/trifolium-incarnatum_700x700_2c52f67c-44ba-4b99-a7eb-2fa7adaa3842.webp",
-            "image_url": "",
-            "title": "Flor de Trébol Rojo",
-            "text": "<p>Favorece la detoxificación del cuerpo, ayuda a purificar la sangre y mejora la circulación linfática.</p>",
-            "ingredients": ""
-          }
-        },
-        "card_rkefGr": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/Gal_apa_11050902_700x700_700x700_5cf6b6de-20f0-4c4d-8613-1c87058a2f4f.webp",
-            "image_url": "",
-            "title": "Stillingia",
-            "text": "<p>Ayuda a eliminar toxinas acumuladas y reduce la hinchazón visible del rostro y del cuerpo.</p>",
-            "ingredients": ""
-          }
-        },
-        "card_rGT9Pr": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/frene-epineux_700x700_700x700_07033309-760c-41f2-bfdb-efab10acd127.webp",
-            "image_url": "",
-            "title": "Corteza de Fresno Espinoso",
-            "text": "<p>Tonifica y revitaliza el sistema linfático, aumenta la energía natural y mejora la circulación.</p>",
-            "ingredients": ""
-          }
-        }
-      },
-      "block_order": [
-        "card_BJPbGQ",
-        "card_C3eHMm",
-        "card_rkefGr",
-        "card_rGT9Pr"
-      ],
-      "name": "SS - Product ingredients #5",
-      "settings": {
-        "layout_type": "grid",
-        "layout_type_mobile": "slider",
-        "heading": "<p>Ingredientes puros, cultivados en España</p>",
-        "heading_custom": false,
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 44,
-        "heading_size_mobile": 24,
-        "heading_height": 130,
-        "heading_align": "center",
-        "heading_align_mobile": "center",
-        "cards_gap": 30,
-        "cards_gap_mobile": 20,
-        "cards_view": 3,
-        "cards_view_mobile": 1.1,
-        "cards_mt": 36,
-        "cards_mt_mobile": 24,
-        "card_padding_horizontal": 20,
-        "card_padding_horizontal_mobile": 20,
-        "card_padding_vertical": 20,
-        "card_padding_vertical_mobile": 20,
-        "card_radius": 12,
-        "card_border_thickness": 0,
-        "image_ratio": "landscape",
-        "image_ratio_mobile": "landscape",
-        "card_content_align": "left",
-        "card_content_align_mobile": "left",
-        "title_custom": false,
-        "title_font": "josefin_sans_n4",
-        "title_size": 20,
-        "title_size_mobile": 18,
-        "title_height": 130,
-        "text_custom": false,
-        "text_font": "josefin_sans_n4",
-        "text_size": 13,
-        "text_size_mobile": 13,
-        "text_height": 150,
-        "text_mt": 12,
-        "text_mt_mobile": 10,
-        "use_read_more": false,
-        "read_more": "read more",
-        "read_less": "read less",
-        "small_text_size": 100,
-        "ingredients_gap": 8,
-        "ingredients_gap_mobile": 8,
-        "ingredients_mt": 16,
-        "ingredients_mt_mobile": 16,
-        "ingredient_padding_horizontal": 10,
-        "ingredient_padding_horizontal_mobile": 10,
-        "ingredient_padding_vertical": 6,
-        "ingredient_padding_vertical_mobile": 6,
-        "ingredient_radius": 100,
-        "ingredient_border_thickness": 1,
-        "ingredient_custom": false,
-        "ingredient_font": "josefin_sans_n4",
-        "ingredient_size": 11,
-        "ingredient_size_mobile": 11,
-        "ingredient_height": 100,
-        "arrow_size": 48,
-        "arrow_size_mobile": 38,
-        "arrow_icon_size": 10,
-        "arrow_icon_size_mobile": 8,
-        "arrow_border_thickness": 0,
-        "arrow_radius": 100,
-        "arrow_hover_effect": "color",
-        "arrow_show_desktop": false,
-        "arrow_show_mobile": false,
-        "title_color": "#121212",
-        "text_color": "#121212",
-        "card_bg_color": "#f1f1f1",
-        "card_border_color": "#121212",
-        "ingredient_color": "#121212",
-        "ingredient_bg_color": "rgba(0,0,0,0)",
-        "ingredient_border_color": "#121212",
-        "arrow_color": "#ffffff",
-        "arrow_hover_color": "#121212",
-        "arrow_bg_color": "#121212",
-        "arrow_bg_hover_color": "#ffffff",
-        "arrow_border_color": "#c7c7c7",
-        "arrow_border_hover_color": "#c7c7c7",
-        "heading_color": "#121212",
-        "background_color": "#ffffff",
-        "background_gradient": "",
-        "border_color": "#121212",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "margin_horizontal": 0,
-        "margin_horizontal_mobile": 0,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "full_width": true,
-        "content_width": 1200,
-        "border_thickness": 0,
-        "section_radius": 0,
-        "lazy": true
-      }
-    },
     "rich_text_enrHTk": {
       "type": "rich-text",
       "blocks": {
@@ -413,7 +252,6 @@
         "item_chxRK8": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/hf_20260521_152010_9d417907-4770-4031-b145-81a79ef40ef8.png",
             "icon": "none",
             "icon_width": 48,
             "title": "Paso 1 :",
@@ -423,7 +261,6 @@
         "item_tQHnXB": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/hf_20260409_153620_eeb8629b-a45c-4044-b7a2-ef24c9d50441.webp",
             "icon": "none",
             "icon_width": 48,
             "title": "Paso 2 :",
@@ -433,7 +270,6 @@
         "item_qzxXmC": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/hf_20260409_153435_9dfd04bb-b74e-41a2-b2f9-d8c588a0934e.webp",
             "icon": "none",
             "icon_width": 48,
             "title": "Paso 3 :",
@@ -481,7 +317,6 @@
         "logo_RUXxKg": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Cosmopolitan__revista__logotipo.png",
             "logo_width": 120,
             "link": ""
           }
@@ -489,7 +324,6 @@
         "logo_pnrVmF": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/ELLE_Magazine_Logo.svg",
             "logo_width": 120,
             "link": ""
           }
@@ -497,7 +331,6 @@
         "logo_ykcthg": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Grazia-Logo_svg.png",
             "logo_width": 120,
             "link": ""
           }
@@ -505,7 +338,6 @@
         "logo_gnAtEa": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Marie_Claire_Magazine_logo_svg.png",
             "logo_width": 120,
             "link": ""
           }
@@ -542,7 +374,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/hf_20260521_151535_e4101833-2a12-41db-90ae-b777697a7002.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -720,7 +551,6 @@
         "item_LGY9di": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/hf_20260409_155256_c361f970-d3de-43b6-9a89-24c094ec2db6.webp",
             "column_size": "3",
             "title": "Lucía M.",
             "heading_tag": "h4",
@@ -733,7 +563,6 @@
         "item_x6w399": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/fesses_marine_900x_49cef954-90f0-4a39-a2fa-28d002b02fc3.webp",
             "column_size": "3",
             "title": "Carmen G.",
             "heading_tag": "h4",
@@ -746,7 +575,6 @@
         "item_NDLeCm": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/hf_20260409_154824_283a94e1-993d-4284-82ba-34dd7745b595.webp",
             "column_size": "3",
             "title": "Laura C.",
             "heading_tag": "h4",
@@ -759,7 +587,6 @@
         "item_FFMVrq": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/crea_ceralia_11.webp",
             "column_size": "3",
             "title": "Valentina C.",
             "heading_tag": "h4",
@@ -831,7 +658,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/hf_20260521_151552_1750575f-e57b-4d5a-aa62-5b0d26fcdc55.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -943,7 +769,6 @@
   "order": [
     "featured-product",
     "tabs_VLWyVm",
-    "ingedeitn_xqbcjh",
     "rich_text_enrHTk",
     "rich_text_bVqX7z",
     "images_with_text_scrolling_keYjrn",
