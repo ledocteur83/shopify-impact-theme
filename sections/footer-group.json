@@ -21,7 +21,7 @@
             "mobile_icon_width": 24,
             "icon_width": 24,
             "icon_background_type": "circle",
-            "icon_background": "#1bae31",
+            "icon_background": "#202020",
             "icon_color": "#ffffff",
             "title": "Satisfacción garantizada o reembolso",
             "content": ""
@@ -34,7 +34,7 @@
             "mobile_icon_width": 24,
             "icon_width": 24,
             "icon_background_type": "circle",
-            "icon_background": "#1bae31",
+            "icon_background": "#202020",
             "icon_color": "#ffffff",
             "title": "Atención al cliente 7 días a la semana",
             "content": ""
@@ -47,7 +47,7 @@
             "mobile_icon_width": 24,
             "icon_width": 24,
             "icon_background_type": "circle",
-            "icon_background": "#1bae31",
+            "icon_background": "#202020",
             "icon_color": "#ffffff",
             "title": "Pago seguro",
             "content": ""
@@ -60,7 +60,7 @@
             "mobile_icon_width": 24,
             "icon_width": 24,
             "icon_background_type": "circle",
-            "icon_background": "#1bae31",
+            "icon_background": "#202020",
             "icon_color": "#ffffff",
             "title": "Envío gratuito a partir de 40€",
             "content": ""
@@ -94,9 +94,9 @@
         "wave_animation": true,
         "wave_rotate": true,
         "wave_color": "#ffffff",
-        "background_color": "#1bae31",
+        "background_color": "#202020",
         "background_gradient": "",
-        "border_color": "#1bae31",
+        "border_color": "#202020",
         "margin_top": 0,
         "margin_bottom": 0,
         "padding_top": 0,

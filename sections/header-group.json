@@ -17,7 +17,7 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "Free Shipping",
+            "text": "50% OFF LABOR DAY SALE",
             "url": ""
           }
         }
@@ -30,7 +30,7 @@
         "text_size": "text-base",
         "navigation_mode": "arrows",
         "scrolling_speed": 10,
-        "background": "#1bae31",
+        "background": "#202020",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
